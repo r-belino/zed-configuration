@@ -1,9 +1,10 @@
-{
+[
+  {
     "name": "securityprogram.io",
     "description": "A platform for implementing security programs.",
     "stage": "live",
     "team": "SPIO",
-    "dev":{
+    "dev": {
       "slack": "securityprogramio",
       "github": "github.com/jemurai/spio",
       "plan": "https://dev.azure.com/Jemurai/SecurityProgram.io/_backlogs/backlog/SecurityProgram.io%20Team/Stories",
@@ -49,3 +50,4 @@
       "audit": ""
     }
   }
+]
