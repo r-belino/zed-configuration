@@ -1,0 +1,51 @@
+{
+    "name": "securityprogram.io",
+    "description": "A platform for implementing security programs.",
+    "stage": "live",
+    "team": "SPIO",
+    "dev":{
+      "slack": "securityprogramio",
+      "github": "github.com/jemurai/spio",
+      "plan": "https://dev.azure.com/Jemurai/SecurityProgram.io/_backlogs/backlog/SecurityProgram.io%20Team/Stories",
+      "adr": "docs/adr/"
+    },
+    "support": {
+      "slack": "securityprogramchat",
+      "email": "support@securityprogram.io",
+      "github": "github.com/jemurai/spio",
+      "documentation": "https://github.com/Jemurai/spio"
+    },
+    "ops": {
+      "email": "support@securityprogram.io",
+      "github": "github.com/jemurai/spio",
+      "documentation": "https://github.com/Jemurai/spio"
+    },
+    "continuity": {
+      "tier": 2,
+      "comment": "Important for SPIO business but not business critical for clients.",
+      "email": "support@securityprogram.io",
+      "plan": "link"
+    },
+    "security": {
+      "tier": 1,
+      "summary": "Contains security information about clients.  Very sensitive.",
+      "email": "support@securityprogram.io",
+      "github": "github.com/jemurai/spio",
+      "threatmodel": "",
+      "soxdata": false,
+      "pcidata": false,
+      "hippadata": false,
+      "piidata": true,
+      "codereview": "3/24/2020",
+      "training": "1/20/2020",
+      "linting": "3/24/2020",
+      "securityrequirements": "3/24/2020",
+      "securityunittests": "",
+      "dependencies": "3/24/2020",
+      "staticanalysis": "",
+      "dynamicanalysis": "",
+      "pentest": "planned",
+      "signal": "",
+      "audit": ""
+    }
+  }
